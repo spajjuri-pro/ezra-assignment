@@ -1,6 +1,7 @@
 # Ezra UI Automation
 
 UI test automation for the Ezra web app using:
+
 - Playwright (browser automation)
 - Pytest (test runner)
 - Page Object Model (maintainable test structure)
@@ -27,6 +28,7 @@ Option 2: Download ZIP from GitHub
 ## Who this is for
 
 Use this repo if you want to:
+
 - run automated UI checks against Ezra environments
 - validate core auth behavior quickly
 - extend test coverage using the existing POM framework
@@ -110,11 +112,11 @@ open artifacts/report.html
 ## Common issues
 
 - Browser not installed:
-   - Run `python -m playwright install`
+  - Run `python -m playwright install`
 - Virtual environment not active:
-   - Re-run `source .venv/bin/activate`
+  - Re-run `source .venv/bin/activate`
 - Dependency errors:
-   - Re-run `pip install -r requirements.txt`
+  - Re-run `pip install -r requirements.txt`
 
 ## Extending this suite
 
