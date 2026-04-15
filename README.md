@@ -2,7 +2,11 @@
 
 UI test automation for the Ezra web app using Playwright, Pytest, and Page Object Model. Focuses on authentication flow validation.
 
-📄 **[Assignment Documentation](docs/Ezra%20-%20Assginment%20-%20Shashi.pdf)**
+## 📚 Documentation
+
+- [Assignment Documentation](docs/Ezra%20-%20Assginment%20-%20Shashi.pdf)
+- [Test Cases - Question 1](docs/Ezra%20-%20Question%201%20-%20test_cases.pdf)
+- [Responses - Question 2](docs/Ezra%20-%20question2%20-%20responses.pdf)
 
 ## 📊 Test Reports
 
