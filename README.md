@@ -7,6 +7,23 @@ UI test automation for the Ezra web app using:
 
 This repository currently focuses on authentication flow checks (login page rendering, signup navigation, and invalid email validation).
 
+## How to get this repository
+
+Option 1: Clone with Git (recommended)
+
+```bash
+git clone https://github.com/spajjuri-pro/ezra-assignment.git
+cd ezra-assignment
+```
+
+Option 2: Download ZIP from GitHub
+
+1. Open the repository page on GitHub.
+2. Select **Code**.
+3. Select **Download ZIP**.
+4. Extract the ZIP file.
+5. Open the extracted folder in VS Code.
+
 ## Who this is for
 
 Use this repo if you want to:
