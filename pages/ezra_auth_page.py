@@ -8,7 +8,12 @@ class EzraAuthPage(BasePage):
         self.goto("/")
 
     def login_heading_visible(self) -> bool:
-        return self.page.get_by_role("heading", name="Please sign in to your account", exact=False).first.is_visible()
+        heading = self.page.get_by_role("heading", name="Please sign in to your account", exact=False).first
+        try:
+            heading.wait_for(state="visible", timeout=10000)
+        except Exception:
+            return False
+        return heading.is_visible()
 
     def email_input_visible(self) -> bool:
         return self.page.get_by_label("Email", exact=False).first.is_visible()
