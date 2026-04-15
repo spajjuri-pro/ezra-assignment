@@ -7,8 +7,8 @@ from pages.ezra_auth_page import EzraAuthPage
 ENV_URLS = {
     "staging": "https://myezra-staging.ezra.com/",
     # Update the placeholders below with your real target URLs.
-    "qa": "https://myezra-qa.ezra.com/",
-    "prod": "https://myezra.ezra.com/",
+    "qa": "<QA URL>",
+    "prod": "<PROD URL>",
 }
 
 
